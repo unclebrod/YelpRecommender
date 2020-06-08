@@ -127,4 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-data/
+data/yelp_dataset/
+data/all_df.csv
+data/charlotte_df.csv
+.gitignore
