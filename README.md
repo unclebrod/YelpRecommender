@@ -38,7 +38,7 @@ Overall, I thought these failures were more encouraging than discouraging. While
 In researching these shortcomings, I found an article by [Mansoury et al](https://arxiv.org/pdf/1907.07766.pdf) which speaks to how explicit recommenders inherently skew toward centrality, and that a lack of flatness in the ratings correlates negatively to performance. In this same paper, they propose converting user ratings into percentiles based on their own rating preferences in pre-processing in order to flatten these ratings. I only partially explored this alternative, but see it as a next step worth investigating.
 
 Ultimately, the goal was to create recommendations based on user ratings, and I've included below an example of such a recommendation. <br/>
-[Recommendation example](images/recommendation.PNG) <br/>
+![Recommendation example](images/recommendation.PNG) <br/>
 
 What we can see is that our recommender is picking up on the user's interests in Mediterranean food by offering other similar style restaurants, presumably from other users who enjoy Mediterranean food. Places like Chili Man and Enat Ethiopian show up because they are popular, highly rated restaurants.
 
